@@ -1,10 +1,9 @@
-package src.calculadorajava;
+package calculadorajava;
 
-public class calculadorajava {
-}
 import java.util.Scanner;
 
-public Calculadora() {
+public class Calculadora {
+    public Calculadora() {
     }
 
     public static void main(String[] args) {
