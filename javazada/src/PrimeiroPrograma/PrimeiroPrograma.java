@@ -1,6 +1,5 @@
 package PrimeiroPrograma;
 
-import PrimeiroPrograma.model.Livro;
 
 public class PrimeiroPrograma {
 
@@ -16,7 +15,7 @@ class Livro {
 
     public Livro(String nome, Integer numPaginas){
         this.nome = nome;
-        this.numPaginas;
+        this.numPaginas = numPaginas;
     }
     public String getNome() {
         return nome;
@@ -32,5 +31,13 @@ class Livro {
 
     public void setNumPaginas(Integer numPaginas) {
         this.numPaginas = numPaginas;
+    }
+
+    @Override
+    public String toString() {
+        return "Livro{" +
+                "nome='" + nome + '\'' +
+                ", numPaginas=" + numPaginas +
+                '}';
     }
 }
