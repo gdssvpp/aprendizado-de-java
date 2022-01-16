@@ -48,10 +48,7 @@ public class variaveiseafins {
         System.out.println(NUMERO_TENTATIVAS);
         System.out.println(QUANTIDADE_OPCOES);
     }
-
+    //basicamente são as boas praticas
+    //do que pode ou não usar nas variáveis
+    //deu pra entender legal
 }
-/**
- * Basicamente é o que pode ou não usar pra criar variáveis
- * Famosa boas práticas
- * Deu pra entender legal
- */
