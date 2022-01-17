@@ -3,4 +3,4 @@
 /workspace.xml
 /out
 .idea
-javazada.iml
+**/*.iml
